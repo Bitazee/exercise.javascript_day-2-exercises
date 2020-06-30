@@ -4,8 +4,7 @@ var arrayLength = 10;
 
 for(var index = 0; index < arrayLength; index++){
     myData[index] = 1;
-    var nextString = new String(myData[index]);
-    initalString += nextString + " ";
+    initalString += myData[index] + " ";
 }
 console.log(initalString);
 
